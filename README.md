@@ -4,7 +4,8 @@
 ## Generate builder
 ```
 $ git clone https://github.com/victornc83/s2i-nginx.git
-$ docker build -t nginx-centos7 . ```
+$ docker build -t nginx-centos7 .
+```
 
 New image builder could be used in Openshift v3 to build a web server with static web content.
 
