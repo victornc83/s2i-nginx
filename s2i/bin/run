@@ -1,0 +1,3 @@
+#!/bin/bash -e
+echo "NGINX server is running in 8080/TCP"
+exec nginx -c /opt/app-root/etc/nginx.conf -g "daemon off;"
